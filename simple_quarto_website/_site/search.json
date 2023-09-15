@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "simple_quarto_website",
+    "section": "",
+    "text": "This is a Quarto website.\n\nThis is h1\nNote: We will be moving back to more “traditional” Data-science methods in the coming weeks, however, we want you to acquire the following Computer-Science fundamentals as early as possible!\n\ntest bullet\n\n\n\nThis is h2\nImportant: If you don’t know how to do something, start first by Googling, e.g how to embed a video in quarto\n\n\nThis is h3\n\n\n\nList One\n\nItem A\nItem B\nItem C\n\n\n\nList Two\n\nItem X\nItem Y\nItem Z\n\n\n\n\n\n\n\nDocuments\nYou can write HTML, Word and PDF documents\n\n\n\nPresentations\nYou can write PowerPoint, Beamer and revealjs presentations\n\n\n\n\nDemonstration of pipe table syntax\n\n\nDefault\nLeft\nRight\nCenter\n\n\n\n\n12\n12\n12\n12\n\n\n123\n123\n123\n123\n\n\n1\n1\n1\n1\n\n\n\n\nThis is an example of a bulleted list with math\nHere is an in-line math equation \\(f(x)=\\frac{e^{x^2}}{2}\\)\n\n\\[g(x)=x^n \\rightarrow \\frac{\\partial g}{\\partial x}=n x^{n-1}\\]\n\nThis is some text with a footnote[^1].\n\nThis is a quote\n\n\n\n\nalt text\n\n\n\n\n\nalt text\n\n\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]\n\n\nA Mermaid diagram\n\n\n\n\nHere are references to two articles on data mining:\n\nSeifert provides an overview of data mining[@seifert2004data].\nChen, Han, and Yu discuss data mining from a database perspective[@chen1996data].\n\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is h1\n\n\nThis is h2\n\n\n\nThis is h3\n\nimport matplotlib.pyplot as plt\n\nfig, ax = plt.subplots()\n\nfig.set_facecolor('gray')\n\nax.set_title('test')\n\nax.axis('off')\n\nplt.show()"
+  },
+  {
+    "objectID": "about.html#h2",
+    "href": "about.html#h2",
+    "title": "About",
+    "section": "",
+    "text": "This is h2"
+  },
+  {
+    "objectID": "about.html#h3",
+    "href": "about.html#h3",
+    "title": "About",
+    "section": "",
+    "text": "This is h3\n\nimport matplotlib.pyplot as plt\n\nfig, ax = plt.subplots()\n\nfig.set_facecolor('gray')\n\nax.set_title('test')\n\nax.axis('off')\n\nplt.show()"
+  }
+]

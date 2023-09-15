@@ -1,0 +1,102 @@
+---
+title: "simple_quarto_website"
+---
+
+This is a Quarto website.
+
+
+# This is h1
+Note: We will be moving back to more “traditional” Data-science methods in the coming weeks, however, we want you to acquire the following Computer-Science fundamentals as early as possible!
+
+
+- test bullet
+  
+# This is h2
+
+Important: If you don’t know how to do something, start first by Googling, e.g how to embed a video in quarto
+
+
+# This is h3
+
+
+::: {layout-ncol=2}
+### List One
+
+- Item A
+- Item B
+- Item C
+
+### List Two
+
+- Item X
+- Item Y
+- Item Z
+:::
+
+:::: {.columns}
+::: {.column width="50%"}
+### Documents
+
+You can write HTML, Word and PDF documents
+:::
+
+::: {.column width="50%"}
+### Presentations
+
+You can write PowerPoint, Beamer and revealjs presentations
+
+:::
+::::
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+
+
+* This is an example of a bulleted list with math 
+* Here is an in-line math equation $f(x)=\frac{e^{x^2}}{2}$
+
+$$g(x)=x^n \rightarrow \frac{\partial g}{\partial x}=n x^{n-1}$$
+
+
+<!-- toc -->
+
+This is some text with a footnote[^1].
+
+
+> This is a quote
+
+
+![alt text](https://www.sudeep.co/images/post_images/2018-02-09-Understanding-the-Data-Science-Lifecycle/chart.png)
+
+![alt text](https://static.tildacdn.com/tild3762-3063-4735-b434-373137633561/Does_Data_Science_Re.jpeg)
+
+
+
+```{mermaid}
+%%| fig-cap: "A Mermaid diagram"
+%%| code-fold: false
+flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+```
+
+
+{{< video https://youtu.be/Z8t4k0Q8e8Y width=“800” height=“500” >}}
+
+
+Here are references to two articles on data mining:
+
+- Seifert provides an overview of data mining[@seifert2004data].
+
+- Chen, Han, and Yu discuss data mining from a database perspective[@chen1996data].
+
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
